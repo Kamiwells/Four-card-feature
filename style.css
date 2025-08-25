@@ -1,0 +1,284 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-light;
+    src: url(Fonts/Poppins-ExtraLight.ttf);
+}
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+}
+body{
+    align-self: center;
+    min-width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: hsl(234, 12%, 34%);
+}
+
+/* write-up */
+.Reliable{
+    font-size: 1.25rem;
+    line-height: 1.3;
+    width: 32rem;
+    margin: 0 auto;
+    padding: 0;
+}
+/* light-font */
+.light-font{
+    font-family: 'Poppins-light', sans-serif;
+    font-weight: 500;
+}
+.write-up{
+    width: 32rem;
+    text-align: center;
+    margin: 7rem auto 0 auto;
+}
+/* General styles */
+.write h2 {
+    margin: 2rem 0 -1rem 0;
+}
+
+/* icon */
+.mini-icon {
+    margin: 3.5rem 0 0 21rem;
+}
+/* first card */
+.supervisor{
+    background: hsl(0, 0%, 100%);
+    width: 27rem;
+    height: 24rem;
+    margin: 5rem auto 3.5rem auto;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 0.6rem;
+    padding: 0.5rem 3rem;
+    box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.51);
+    font-size: 1.45rem;
+}
+/* second card */
+.team-builder{
+    background: hsl(0, 0%, 100%);
+    width: 27rem;
+    height: 24rem;
+    margin: 3.5rem auto;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-radius: 0.6rem;
+    padding: 0.5rem 3rem;
+    box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.51);
+    font-size: 1.45rem;
+}
+/* Third card */
+.karma{
+    background: hsl(0, 0%, 100%);
+    width: 27rem;
+    height: 24rem;
+    margin: 3.5rem auto;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-radius: 0.6rem;
+    padding: 0.5rem 3rem;
+    box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.51);
+    font-size: 1.45rem;
+}
+.calculator{
+    background: hsl(0, 0%, 100%);
+    width: 27rem;
+    height: 24rem;
+    margin: 3.5rem auto;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    border-radius: 0.6rem;
+    padding: 0.5rem 3rem;
+    box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.51);
+    font-size: 1.45rem;
+}
+/* Media Queries (mobile) */
+@media (min-width:23.4375rem) {
+/* whole-container */
+    .container {
+        width: 33rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        color: hsl(234, 12%, 34%);
+        margin: 0 auto;
+    }
+
+/* write-up */
+    .Reliable {
+        font-size: 1.25rem;
+        line-height: 1.3;
+        width: 32rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+/* light-font */
+    .light-font {
+        font-family: 'Poppins-light', sans-serif;
+        font-weight: 500;
+    }
+
+.write-up {
+        width: 32rem;
+        text-align: center;
+    }
+
+/* General styles */
+    .write h2 {
+        margin: 2rem 0 0 0;
+    }
+
+/* icon */
+    .mini-icon {
+        margin: 3.5rem 0 0 21rem;
+    }
+
+/* first card */
+.supervisor {
+        width: 27rem;
+        height: 24rem;
+        margin: 5rem auto 3.5rem auto;
+        border-top: 5px solid hsl(180, 62%, 55%);
+        border-radius: 0.6rem;
+        padding: 0.5rem 3rem;
+        box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.31);
+        font-size: 1.45rem;
+    }
+
+    /* second card */
+    .team-builder {
+        width: 27rem;
+        height: 24rem;
+        margin: 3.5rem auto;
+        border-top: 5px solid hsl(0, 78%, 62%);
+        border-radius: 0.6rem;
+        padding: 0.5rem 3rem;
+        box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.31);
+        font-size: 1.45rem;
+    }
+
+    /* Third card */
+    .karma {
+        width: 27rem;
+        height: 24rem;
+        margin: 3.5rem auto;
+        border-top: 5px solid hsl(34, 97%, 64%);
+        border-radius: 0.6rem;
+        padding: 0.5rem 3rem;
+        box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.31);
+        font-size: 1.45rem;
+    }
+
+    .calculator {
+        width: 27rem;
+        height: 24rem;
+        margin: 3.5rem auto;
+        border-top: 5px solid hsl(212, 86%, 64%);
+        border-radius: 0.6rem;
+        padding: 0.5rem 3rem;
+        box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.31);
+        font-size: 1.45rem;
+    }
+}
+/* Media (Tab & Desktop) */
+@media (min-width:48rem) {
+/* whole-container */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        width: 100rem;
+    }
+
+/* write-up */
+    .Reliable {
+        font-size: 1.25rem;
+        line-height: 1.3;
+        width: 32rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+/* light-font */
+    .light-font {
+        font-family: 'Poppins-light', sans-serif;
+        font-weight: 500;
+    }
+
+    .write-up {
+        width: 50rem;
+        margin: 2rem auto;
+    }
+.write-up article{
+    margin: 1.5rem 0 0 0;
+}
+
+/* first card */
+    .supervisor {
+        width: 26rem;
+        height: 22rem;
+        border-top: 5px solid hsl(180, 62%, 55%);
+        border-radius: 0.6rem;
+        padding: 0.5rem 3rem;
+        box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.31);
+        font-size: 1.3rem;
+    }
+
+/* second card */
+    .team-builder {
+        width: 26rem;
+        height: 22rem;
+        border-top: 5px solid hsl(0, 78%, 62%);
+        border-radius: 0.6rem;
+        padding: 0.5rem 3rem;
+        box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.31);
+        font-size: 1.3rem;
+    }
+
+/* Third card */
+    .karma {
+        width: 26rem;
+        height: 22rem;
+        border-top: 5px solid hsl(34, 97%, 64%);
+        border-radius: 0.6rem;
+        padding: 0.5rem 3rem;
+        box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.31);
+        font-size: 1.3rem
+    }
+/* Fourth Card */
+    .calculator {
+        width: 26rem;
+        height: 22rem;
+        border-top: 5px solid hsl(212, 86%, 64%);
+        border-radius: 0.6rem;
+        padding: 0.5rem 3rem;
+        box-shadow: 0px 8px 12px -4px rgba(85, 136, 213, 0.31);
+        font-size: 1.3rem;
+    }
+
+/* icon */
+.mini-icon {
+    margin: 3.5rem 0 0 20rem;
+}
+/* Middle-box */
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.supervisor, .calculator{
+    align-self: center;
+}
+.box, .team-builder, .karma{
+    gap: 3rem;
+    margin: 0 auto;
+}
+.box,
+.team-builder{
+margin: 1rem 0 0 0;
+}
+}
